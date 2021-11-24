@@ -1,0 +1,92 @@
+//main: ../style.less
+
+.contact {
+    height: 40.8rem;
+    background-color: @white;
+}
+
+.contact__inner {
+    padding-top: 6.6rem;
+}
+
+.contact__title {
+    flex: none;
+    text-align: center;
+
+    font-size: 2.8rem;
+    text-transform: uppercase;
+}
+
+.contact__text {
+    padding-top: 1rem;
+    text-align: center;
+    font-size: .9rem;
+    font-weight: 300;
+    color: @gray;
+}
+
+.form {
+    display: flex;
+    padding-top: 4rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form__input {
+    display: flex;
+    flex-basis: 50%;
+
+    padding-top: .5rem;
+    margin-top: 1rem;
+    width: 37rem;
+    height: 2.3rem;
+
+    font-size: .9rem;
+    color: @gray;
+
+    border: 0;
+    box-shadow: 0 1px 1px #D6D6D6;
+
+    transition: border .2s initial;
+
+    &:focus {
+        outline: none;
+        border: 1px solid @orange;
+    }
+}
+
+
+.form__textarea {
+    margin-top: 1rem;
+
+
+    display: flex;
+    flex-basis: 45%;
+    width: 35.4rem;
+    height: 10.3rem;
+
+    font-size: .9rem;
+    color: @gray;
+
+    border:0;
+    box-shadow: 0 1px 1px #D6D6D6;
+    resize: none;
+
+    transition: border .2s initial;
+
+    &:focus {
+        outline: none;
+        border: 1px solid @orange;
+    }
+}
+.form__btn {
+    display: flex;
+}
+
+.form__btn {
+    padding-top: 3rem;
+    align-items: center;
+    text-align: center;
+    margin: 0 36.8rem;
+}
+

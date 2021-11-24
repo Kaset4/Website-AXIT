@@ -1,0 +1,35 @@
+//main: ../style.less
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav__link {
+    margin-left: 3.2rem;
+    position: relative;
+
+    font-size: 1rem;
+    color: #B0B0B0;
+    text-decoration: none;
+    font-weight: 550;
+
+    &:after    {
+        content: "";
+        width: 0;
+        height: 2px;
+        background-color: #B0B0B0;
+
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        z-index: 1;
+
+        transition: width .2s linear;
+    }
+    &:hover {
+        &:after {
+            width: 100%;
+       }   }
+
+ }

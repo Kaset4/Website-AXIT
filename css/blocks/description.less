@@ -1,0 +1,80 @@
+// main: ../style.less
+
+.description {
+    background-color: #F5F5F5;
+    height: 40rem;
+}
+
+.description__inner {
+    padding-top: 9.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description__sidebar-col {
+    display: flex;
+    background-color: @black-l;
+    width: 7.6rem;
+    height: 7.6rem;
+    color: White;
+    text-decoration: none;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-left: 2.2rem;   
+
+    transition: background-color .2s linear;
+
+    &:hover {
+        cursor: pointer;
+        background-color: @orange;
+    }
+}
+
+.description__content {
+    padding-left: 6rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    font-size: .9rem;
+    font-weight: 300;
+    width: 40%;
+    line-height: 1.5rem;
+    align-items: center;
+    
+    p{
+        color: @gray;
+        padding-bottom: 3rem;
+    }
+
+
+}
+
+.description__photo {
+    width: 40%;
+    padding-left: 6.5rem;
+}
+
+.description-btn {
+    background-color: @orange;
+    color: @white;
+    width: 8rem;
+    height: 3.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 0;
+    border-radius: 3px;
+
+    transition: background-color .2s linear;
+
+    &:hover{
+        cursor: pointer;
+
+        background-color: darken(#FF9B51, 30%)
+    }
+
+    &--form {
+        height: 2.4rem;
+        font-size: .8rem;
+        font-weight: 600;
+    }
+}

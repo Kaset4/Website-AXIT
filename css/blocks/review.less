@@ -1,0 +1,79 @@
+//main: ../style.less
+
+
+.review {
+    height: 40rem;
+    background-color: @white;
+}
+
+.review__inner {
+    padding-top: 6.6rem;
+}
+
+.review__title {
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.review__items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 33%;
+    padding-top: 3rem;
+}
+
+.review__item {
+    width: 33.33333%;
+    align-items: center;
+    text-align: center;
+}
+
+
+.review__item__text {
+    height: 9.8rem;
+    display: flex;
+    width: 15rem;
+    background: url("../images/u229.svg") no-repeat;
+    margin: 0 5rem;
+    text-align: left;
+    padding: 0 1rem;
+    padding-top: .8rem;
+
+    font-size: .9rem;
+    color: @gray;
+    font-weight: 500;
+}
+
+.reiew__item__user {
+    margin: 0 1.5rem;
+    padding-left: 4.1rem;
+    display: flex;
+    align-items: center;
+}
+
+.user__avatar {
+    width: 57px;
+    height: 57px;
+
+    img {
+        border-radius: 50%;
+    }
+}
+
+.user__content{
+    padding-left: 9px;
+}
+
+.user__name{
+    font-size: 1.06rem;
+    line-height: 18px;
+    color: @black;
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+
+.user__prof{
+    float: left;
+    font-size: 0.8rem;
+    color: fade(@black, 70%);
+}
